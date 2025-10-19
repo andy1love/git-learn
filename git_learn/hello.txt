@@ -1,0 +1,10 @@
+Hello, Git World!
+This is my first file in the Git repository.
+I'm learning how to use Git with Cursor.
+
+Today I will learn:
+- How to initialize a Git repository
+- How to add files to staging
+- How to commit changes
+- How to push to remote repository
+- How to pull changes from remote
