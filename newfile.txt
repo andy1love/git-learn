@@ -2,4 +2,9 @@ second text file in codebase.
 created in local.
 ----------------
 
-deleting all notes.
+
+
+
+
+
+MAKING SOME CHANGES
