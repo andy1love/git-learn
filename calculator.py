@@ -21,13 +21,17 @@ def divide(a, b):
         return "Error: Division by zero"
     return a / b
 
+def power(a, b):
+    """Calculate a raised to the power of b"""
+    return a ** b
+
 def main():
-    print("Welcome to the Calculator!")
-    print("Available operations: +, -, *, /")
+    print("Welcome to the Enhanced Calculator!")
+    print("Available operations: +, -, *, /, ^ (power)")
     
     try:
         num1 = float(input("Enter first number: "))
-        operation = input("Enter operation (+, -, *, /): ")
+        operation = input("Enter operation (+, -, *, /, ^): ")
         num2 = float(input("Enter second number: "))
         
         if operation == '+':
@@ -38,6 +42,8 @@ def main():
             result = multiply(num1, num2)
         elif operation == '/':
             result = divide(num1, num2)
+        elif operation == '^':
+            result = power(num1, num2)
         else:
             result = "Invalid operation"
             
